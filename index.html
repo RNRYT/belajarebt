@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar EBT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+
+
+    />
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inconsolata&family=M+PLUS+Rounded+1c:wght@500&family=Poppins:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    
+
+    <!-- <nav class="navbar bg-body-tertiary">
+      <div class="button">
+        <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      </div>
+      <form class="container-fluid">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+            </div>
+            <div class="col">
+              <button class="btn btn-outline-success me-2" type="button">Main button</button>
+            </div>
+            <div class="col">
+              <button class="btn btn-outline-success me-2" type="button">Main button</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </nav> -->
+
+
+    <!-- navbar bikin gila -->
+
+
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          
+          <div class="bar1"></div>
+          
+          <a class="navbar-brand" href="#">Belajar Energi Baru Terbarukan</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="bar2"></div>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <div class="satu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+              </div>
+              <div class="bar4"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <div class="bar4"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="#ebt">EBT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar -->
+
+    <!-- carousel -->
+    <!-- <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/plta.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Untitled design (1).png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Untitled design (2).png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Untitled design (3).png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Untitled design.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+
+    <section id="header">
+      <div class="row text-center">
+        <div class="item" data-aos="fade-up">
+          <div class="row justify-content-center">
+          </div>
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/plta air.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Untitled design (1).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Untitled design (2).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Untitled design (3).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Untitled design.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!-- carousel -->
+
+    <!-- About -->
+
+    <section id="about">
+      <h1 data-aos="fade-up" data-aos-duration="2500">Tentang <span>Energi</span> Terbarukan</h1>
+      <div class="paragrap">
+        <p>
+          <div class="img">
+            <img src="img/daunremove.png" class="rounded float-end" alt="..." data-aos="fade-up" data-aos-duration="2500" />
+          </div>
+          <div class="paragrap" data-aos="fade-up" data-aos-duration="2400">
+            <li>
+              Energi Baru Terbarukan(ETB) Di Dirikan tahun 25 April 2016.
+            </li>
+            <li>
+              Di Dirikan Oleh Direktorat Jendral Energi Baru.
+            </li>
+            <li>
+              Sebagai salah satu implementasi kerja sama
+            </li>
+            <li>
+              Kementrian ESDM dan Pemerintah Denmark Melalui
+            </li>
+            <li>
+              Danish International Development Agency (DANIDA).
+            </li>
+            <li>
+              Energi Baru Terbarukan Di Dirikan untuk Mewujudkan 
+            </li>
+            <li>
+              Proses Pelayanan yang Cepat, Mudah, Efektif 
+            </li>
+            <li>
+              Dan Trasparan Sesuai Yang Telah Di Tetapkan.
+            </li>
+            <a href="https://ebtke.esdm.go.id/lintas/id/tentang-kami#:~:text=LINTAS%20EBTKE%20diresmikan%20pada%20tanggal,International%20Development%20Agency%20(DANIDA)">Sumber teks di atas <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </p>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <!-- ebt -->
+    <section id="ebt">
+      <h1 data-aos="fade-up" data-aos-duration="2400">Macam - Macam <span>Energi Terbarukan</span></h1>
+        <div class="container text-center" data-aos="fade-down" data-aos-duration="2400">
+          <div class="row align-items-start">
+            <div class="col">
+              <div class="wrapper">
+                <div class="image">
+                  <img src="img/panelsuryalogo.png" alt="">
+                  <div class="content">
+                    <h2>Panel Surya</h2>
+                    <a href="#macamebt"><p>Cek di bawah <i class="fa-solid fa-arrow-down-long"></i></p></a>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="col">
+              <div class="wrapper">
+                <div class="image">
+                  <img src="img/PLTA logo.png" alt="">
+                  <div class="content">
+                    <h2>(PLTA) Air</h2>
+                    <a href="#macamebt"><p>Cek di bawah <i class="fa-solid fa-arrow-down-long"></i></p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col align-self-end">
+              <div class="wrapper">
+                <div class="image">
+                  <img src="img/woodchip logo.png" alt="">
+                  <div class="content">
+                    <h2>Bio Energi</h2>
+                    <a href="#macamebt"><p>Cek di bawah <i class="fa-solid fa-arrow-down-long"></i></p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="wrapper">
+                <div class="image">
+                  <img src="img/BayuLogo.png" alt="">
+                  <div class="content">
+                    <h2>Bayu Energi Angin</h2>
+                    <a href="#macamebt"><p>Cek di bawah <i class="fa-solid fa-arrow-down-long"></i></p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="wrapper">
+                <div class="image">
+                  <img src="img/panasbumilogo.png" alt="">
+                  <div class="content">
+                    <h2>Panas Bumi</h2>
+                    <a href="#macamebt"><p>Cek di bawah <i class="fa-solid fa-arrow-down-long"></i></p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- ebt -->
+
+    <!-- macam macam ebt -->
+
+    <section id="macamebt">
+      <h1>Macam Energi Baru Terbarukan</h1>
+      <div class="isi">
+        <h2 class="unit" data-aos="fade-down-right"  data-aos-duration="2500">Panel <span>Surya</span></h2>
+        <p> 
+          <div class="img">
+            <img src="img/Untitled design (2).png" class="rounded float-end" alt="..." data-aos="fade-up" data-aos-duration="2500" />
+          </div>
+          <div class="col-lg">
+            <div class="paragrap" data-aos="fade-down" data-aos-duration="2400">
+              <li>
+                <a href="https://elektro.umy.ac.id/apa-dan-bagaimana-sistem-kerja-panel-surya/#:~:text=Panel%20surya%20adalah%20kumpulan%20sel,dapat%20mengubah%20cahaya%20menjadi%20listrik.">Sumber di bawah <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                Panel surya adalah kumpulan sel surya yang ditata sedemikian rupa
+              </li>
+              <li>
+                agar efektif dalam menyerap sinar matahari.
+              </li>
+              <li>
+                Sedangkan yang bertugas menyerap sinar matahari adalah sel surya.
+              </li>
+              <li>
+                Sel surya sendiri terdiri dari berbagai komponen photovoltaic 
+              </li>
+              <li>
+                atau komponen yang dapat mengubah cahaya menjadi listrik.
+              </li>
+              <li>
+                Umumnya sel surya terdiri dari lapisan silikon yang bersifat
+              </li>
+              <li>
+                semikonduktor, metal, anti reflektif, dan strip konduktor metal.
+              </li>
+            </div>
+          </div>
+        </p>
+
+        <h2 class="bayu"><span>Bayu</span> (PLTB)</h2>
+        <p>
+          <div class="img2">
+            <img src="img/Untitled design (3).png" class="rounded float-start" alt="..." data-aos="fade-up" data-aos-duration="2500" />
+          </div>
+          <div class="col-lg">
+            <div class="paragraf" data-aos="fade-down" data-aos-duration="2400">
+              <li>
+              Pembangkit Listrik Tenaga Bayu (PLTB) atau Tenaga Angin
+              </li>
+              <li>
+                merupakan pembangkit listrik 
+              </li>
+              <li>
+                energi terbarukan yang ramah lingkungan.
+              </li>
+              <li>
+                memiliki efisiensi kerja yang baik dibandingkan 
+              </li>
+              <li>
+                pembangkit listrik energi terbarukan lainnya 
+              </li>
+              <li>
+                memanfaatkan energi kinetik angin yang masuk ke 
+              </li>
+              <li>
+                daerah efektif turbin untuk memutar baling-baling/kincir angin
+              </li>
+            </div>
+          </div>
+        </p>
+
+        <h2><span>PLTA</span> (Air)</h2>
+        <p>
+          <div class="img">
+            <img src="img/plta air.png" class="rounded float-end" alt="..." data-aos="fade-up data-aos-duration="2500" />
+          </div>
+          <div class="col-lg">
+            <div class="paragrap" data-aos="fade-down" data-aos-duration="2400">
+              <li>
+                Pembangkit listrik tenaga air (PLTA)
+              </li>
+              <li>
+                cara kerja pembangkit listrik tenaga air 
+              </li>
+              <li>
+                adalah energi potensial yang ada 
+              </li>
+              <li>
+                dalam aliran air kemudian digunakan 
+              </li>
+              <li>
+                untuk menggerakkan turbin, 
+              </li>
+              <li>
+                TUrbin ini kemudian berputar dan 
+              </li>
+              <li>
+                menghasilkan energi mekanik karna 
+              </li>
+              <li>
+                berada di bawah tekanan aliran air
+              </li>
+            </div>
+          </div>
+        </p>
+        <h2 class="bayu">Bio <span>Energi</span></h2>
+        <p>
+          <div class="img2">
+            <img src="img/Untitled design (2).png" class="rounded float-start" alt="..." data-aos="fade-up" data-aos-duration="2500" />
+          </div>
+          <div class="col-lg">
+            <div class="paragraf" data-aos="fade-down" data-aos-duration="2400">
+              <li>
+                Bioenergi adalah energi terbarukan yang diperoleh 
+              </li>
+              <li>
+                dari sumber hayati, umumnya biomassa
+              </li>
+              <li>
+                Biomassa adalah bahan organik yang menyimpan 
+              </li>
+              <li>
+                energi sinar matahari dalam bentuk energi kimia.
+              </li>
+              <li>
+                Biasanya berasal dari Kayu, Limbah pabrik kayu
+              </li>
+              <li>
+                Jerami dan hasil pertanian seperti tebu yang 
+              </li>
+              <li>
+                dapat diolah menjadi bahan bakar.
+              </li>
+            </div>
+          </div>
+        </p>
+        <h2><span>Panas</span> Bumi</h2>
+        <p>
+          <div class="img">
+            <img src="img/Untitled design (1).png" class="rounded float-end" alt="..." data-aos="fade-up data-aos-duration="2500" />
+          </div>
+          <div class="col-lg">
+            <div class="paragrap" data-aos="fade-down" data-aos-duration="2400">
+              <li>
+                Energi panas bumi adalah energi panas 
+              </li>
+              <li>
+                yang terjadi dan tercipta di kerak bumi.
+              </li>
+              <li>
+                Suhu di bawah permukaan bumi meningkat 
+              </li>
+              <li>
+                seiring dengan kedalaman.
+              </li>
+              <li>
+                dengan gradien suhu panas bumi 
+              </li>
+              <li>
+                rata-rata sebesar 25 °C/km
+              </li>
+              <li>
+                suhu di pusat bumi tidak 
+              </li>
+              <li>
+                dapat ditentukan secara pasti
+              </li>
+              <li>
+                namun diperkirakan antara 4.400 dan 6.000 °C
+              </li>
+            </div>
+          </div>
+        </p>
+      </div>
+    </section>
+
+    <!-- macam macam ebt -->
+
+
+    <div class="bar5"></div>
+
+    <!-- footer awal -->
+    <footer id="footer" class="pt-5 myFooter">
+      <div class="container">
+          <div class="row pb-3">
+              <div class="col-md-6 mb-3">
+                  <h6 class="mb-2">My Projects</h6>
+                  <ul>
+                      <li><a class="small d-block" href="https://yuuuu.netlify.app/">My Portfolio</a></li>
+                      <li><a class="small d-block" href="https://exploreindonesia.netlify.app">Explore Indonesia</a></li>
+                      <li><a class="small d-block" href="https://gamebuatanbangsa.netlify.app/">Game Buatan Anak Bangsa</a></li>
+              </div>
+              <div class="col-md-6 mb-3">
+                  <h6 class="mb-2">Github Profile</h6>
+                  <ul>
+                      <li><a class="small d-block" href="https://github.com/RNRYT">Github</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row pt-3 border-top border-light">
+              <div class="col-md-6 text-center text-md-left pb-3">
+                  <small class="mr-2">© 2024. Made with ☕ By Ry</small>
+              </div>
+              <div class="col-md-6 text-center text-md-right pb-3">
+
+                  <a href="https://github.com/RNRYT" class="h4 mx-1 btnhvr" title="Github"><i
+                          class="fab fa-github"></i></a>
+
+                  <a href="https://www.instagram.com/fybckk/" class="h4 mx-1 btnhvr"
+                      title="Instagram"><i class="fab fa-instagram"></i></a>
+
+              </div>
+          </div>
+      </div>
+    </footer>
+    <!-- footer akhir -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init(1200);
+    </script>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+:root {
+  --background: #fff;
+  --primary: #b6e388;
+  --second: #c7f2a4;
+  --second-2: #e1ffb1;
+  --font: #000;
+}
+
+/* bar */
+.bar1 {
+  padding-right: 7%;
+}
+
+.bar2 {
+  padding-left: 40%;
+}
+
+.bar4 {
+  padding-left: 25%;
+}
+
+.bar5 {
+  padding-top: 10%;
+}
+
+/*  Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(90, 90, 90);
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* navbar */
+
+/* .navbar .button {
+  padding-left: 5%;
+} */
+
+/* .navbar .col {
+  padding-left: 5%;
+} */
+.navbar li {
+  padding-top: 2%;
+}
+
+.navbar-nav a {
+  font-size: 20px;
+  color: var(--font);
+  transition: 1.5s;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+
+  transition: 0.2s;
+}
+
+.navbar-brand {
+  transition: 0.2s;
+}
+
+/* header */
+
+/* #header {
+  background: linear-gradient(to bottom, #c7f2a4, #c7f2a4, rgb(216, 216, 216));
+  box-shadow: 0px 5px 5px rgb(185, 185, 185);
+  padding: 10%;
+  padding-top: 4%;
+}
+
+#header .carousel-inner {
+  width: 100px;
+}
+
+#header h1 {
+  padding-bottom: 5%;
+} */
+
+#header {
+  /* background: linear-gradient(to bottom, #c7f2a4, #ffffff, rgb(255, 255, 255)); */
+  padding: 10%;
+  box-shadow: 0px 5px 5px rgb(185, 185, 185);
+}
+
+#header h1 {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+/* about */
+
+#about {
+  padding-left: 12%;
+}
+
+#about h1 {
+  padding-top: 5%;
+  align-items: center;
+}
+
+#about .paragrap {
+  font-size: 21px;
+  text-decoration: none;
+  list-style: none;
+  text-align: justify;
+}
+
+#about img {
+  padding-right: 13%;
+}
+
+#about span {
+  color: var(--primary);
+}
+
+#about a {
+  color: var(--font);
+  transition: 1.2s;
+}
+
+#about a:hover {
+  color: #b6e388;
+  padding-left: 13%;
+}
+
+/* macam mcacam */
+#ebt {
+  padding-top: 17%;
+  align-items: center;
+  text-align: center;
+}
+
+#ebt h1 {
+  text-align: center;
+}
+
+#ebt span {
+  color: var(--primary);
+  text-shadow: 1px 1px 2px #000;
+}
+
+#ebt .wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ebt .image {
+  width: 350px;
+  position: relative;
+  float: left;
+}
+
+#ebt img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#ebt .content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+#ebt .content:hover {
+  opacity: 1;
+}
+
+#ebt .content h2 {
+  font-size: 45px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+#ebt .content p {
+  font-size: 19px;
+  color: #fff;
+}
+
+#ebt .content > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+#ebt p:hover {
+  color: var(--second);
+}
+
+/* macam ebt */
+
+#macamebt {
+  padding-top: 10%;
+}
+
+#macamebt a {
+  text-decoration: none;
+  color: #000;
+  transition: 1.4s;
+}
+
+#macamebt a:hover {
+  color: var(--second);
+  margin-left: 8%;
+}
+
+#macamebt h1 {
+  text-align: center;
+  padding-bottom: 10%;
+  color: var(--primary);
+  text-shadow: 1px 1px 2px #000;
+}
+
+#macamebt span {
+  color: #b6e388;
+}
+
+#macamebt img {
+  width: 40%;
+  padding-right: 13%;
+}
+
+#macamebt h2 {
+  padding-top: 10%;
+  padding-left: 8%;
+}
+
+#macamebt .paragrap {
+  font-size: 21px;
+  padding-left: 8%;
+  text-decoration: none;
+  list-style: none;
+  text-align: justify;
+}
+
+#macamebt .paragraf {
+  font-size: 21px;
+  list-style: none;
+  padding-left: 60%;
+}
+
+#macamebt .img2 {
+  border-radius: 10px;
+  padding-left: 8%;
+}
+
+#macamebt .bayu {
+  padding-top: 10%;
+  padding-left: 60%;
+}
+
+/* footer */
+footer {
+  color: #000;
+  padding-top: 100%;
+  background: var(--primary);
+}
+
+footer a {
+  color: #000;
+}
+
+footer {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* hover */
+#ebt .content:hover > * {
+  transform: translateY(0px);
+}
+
+.navbar-nav a:hover {
+  text-align: center;
+  background-color: var(--primary);
+  border-radius: 20px;
+  color: #fff;
+}
